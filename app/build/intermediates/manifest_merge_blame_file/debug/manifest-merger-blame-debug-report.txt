@@ -1,0 +1,438 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="klp18.praktikumprogmob.stt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- To store the heap dumps and leak analysis results. -->
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:23:5-80
+14-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:23:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:24:5-81
+15-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:24:22-78
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:13:5-68
+16-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:13:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:7:5-87:19
+22        android:allowBackup="true"
+22-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:9:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:10:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:11:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:12:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.STT"
+31-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:13:9-41
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:14:9-44
+33        <activity
+33-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:15:9-19:69
+34            android:name="klp18.praktikumprogmob.stt.DetailRequestAcaraAdminActivity"
+34-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:16:13-60
+35            android:label="Lihat Request Acara"
+35-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:17:13-48
+36            android:parentActivityName="klp18.praktikumprogmob.stt.RequestAcaraAdminActivity"
+36-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:18:13-68
+37            android:theme="@style/Theme.AppCompat.Light" />
+37-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:19:13-57
+38        <activity
+38-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:20:9-24:60
+39            android:name="klp18.praktikumprogmob.stt.RequestAcaraAdminActivity"
+39-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:21:13-54
+40            android:label="Request Acara"
+40-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:22:13-42
+41            android:parentActivityName="klp18.praktikumprogmob.stt.MainActivity"
+41-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:23:13-55
+42            android:theme="@style/Theme.AppCompat.Light" />
+42-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:24:13-57
+43        <activity
+43-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:25:9-29:60
+44            android:name="klp18.praktikumprogmob.stt.EditRequestActivity"
+44-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:26:13-48
+45            android:label="Edit Request Acara"
+45-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:27:13-47
+46            android:parentActivityName="klp18.praktikumprogmob.stt.RequestAcaraUserActivity"
+46-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:28:13-67
+47            android:theme="@style/Theme.AppCompat.Light" />
+47-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:29:13-57
+48        <activity
+48-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:30:9-34:60
+49            android:name="klp18.praktikumprogmob.stt.RequestBaruActivity"
+49-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:31:13-48
+50            android:label="Buat Request Acara"
+50-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:32:13-47
+51            android:parentActivityName="klp18.praktikumprogmob.stt.UserHomeActivity"
+51-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:33:13-59
+52            android:theme="@style/Theme.AppCompat.Light" />
+52-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:34:13-57
+53        <activity
+53-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:35:9-39:60
+54            android:name="klp18.praktikumprogmob.stt.RequestAcaraUserActivity"
+54-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:36:13-53
+55            android:label="Request Acara"
+55-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:37:13-42
+56            android:parentActivityName="klp18.praktikumprogmob.stt.UserHomeActivity"
+56-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:38:13-59
+57            android:theme="@style/Theme.AppCompat.Light" />
+57-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:39:13-57
+58        <activity
+58-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:40:9-43:60
+59            android:name="klp18.praktikumprogmob.stt.UserHomeActivity"
+59-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:41:13-45
+60            android:label="Kegiatan STT"
+60-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:42:13-41
+61            android:theme="@style/Theme.AppCompat.Light" />
+61-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:43:13-57
+62        <activity
+62-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:44:9-53:20
+63            android:name="klp18.praktikumprogmob.stt.LoginUserActivity"
+63-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:45:13-46
+64            android:label="STT"
+64-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:46:13-32
+65            android:theme="@style/Theme.AppCompat.Light" >
+65-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:47:13-57
+66            <intent-filter>
+66-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:48:13-52:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:49:17-69
+67-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:49:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:51:17-77
+69-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:51:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:54:9-58:60
+73            android:name="klp18.praktikumprogmob.stt.events.EditEventActivity"
+73-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:55:13-53
+74            android:label="Edit Kegiatan"
+74-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:56:13-42
+75            android:parentActivityName="klp18.praktikumprogmob.stt.MainActivity"
+75-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:57:13-55
+76            android:theme="@style/Theme.AppCompat.Light" />
+76-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:58:13-57
+77        <activity
+77-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:59:9-63:60
+78            android:name="klp18.praktikumprogmob.stt.events.InsertEventActivity"
+78-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:60:13-55
+79            android:label="Tambah Kegiatan"
+79-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:61:13-44
+80            android:parentActivityName="klp18.praktikumprogmob.stt.events.ListEventActivity"
+80-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:62:13-67
+81            android:theme="@style/Theme.AppCompat.Light" />
+81-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:63:13-57
+82        <activity
+82-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:64:9-68:60
+83            android:name="klp18.praktikumprogmob.stt.events.ListEventActivity"
+83-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:65:13-53
+84            android:label="Kegiatan"
+84-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:66:13-37
+85            android:parentActivityName="klp18.praktikumprogmob.stt.MainActivity"
+85-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:67:13-55
+86            android:theme="@style/Theme.AppCompat.Light" />
+86-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:68:13-57
+87        <activity
+87-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:69:9-71:65
+88            android:name="klp18.praktikumprogmob.stt.EditProfileActivity"
+88-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:70:13-48
+89            android:theme="@style/Theme.STT.TransparentTheme" />
+89-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:71:13-62
+90        <activity
+90-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:72:9-75:60
+91            android:name="klp18.praktikumprogmob.stt.MainActivity"
+91-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:73:13-41
+92            android:label="Manajemen STT"
+92-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:74:13-42
+93            android:theme="@style/Theme.AppCompat.Light" />
+93-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:75:13-57
+94        <activity
+94-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:76:9-80:60
+95            android:name="klp18.praktikumprogmob.stt.RegisterActivity"
+95-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:77:13-45
+96            android:label="Daftar Akun"
+96-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:78:13-40
+97            android:parentActivityName="klp18.praktikumprogmob.stt.LoginUserActivity"
+97-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:79:13-60
+98            android:theme="@style/Theme.AppCompat.Light" />
+98-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:80:13-57
+99
+100        <service android:name="klp18.praktikumprogmob.stt.firebase.FirebaseMessageReceiver" >
+100-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:82:9-86:19
+100-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:82:18-66
+101            <intent-filter>
+101-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:83:13-85:29
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:84:17-78
+102-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:84:25-75
+103            </intent-filter>
+104        </service>
+105        <service
+105-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:27:9-30:45
+106            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+106-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:28:13-80
+107            android:enabled="false"
+107-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:29:13-36
+108            android:process=":leakcanary" />
+108-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:30:13-42
+109        <service
+109-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:31:9-33:39
+110            android:name="com.squareup.leakcanary.DisplayLeakService"
+110-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:32:13-70
+111            android:enabled="false" />
+111-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:33:13-36
+112
+113        <activity
+113-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:35:9-47:20
+114            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+114-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:36:13-80
+115            android:enabled="false"
+115-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:37:13-36
+116            android:icon="@drawable/leak_canary_icon"
+116-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:38:13-54
+117            android:label="@string/leak_canary_display_activity_label"
+117-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:39:13-71
+118            android:taskAffinity="com.squareup.leakcanary.klp18.praktikumprogmob.stt"
+118-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:40:13-76
+119            android:theme="@style/leak_canary_LeakCanary.Base" >
+119-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:41:13-63
+120            <intent-filter>
+120-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:48:13-52:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:49:17-69
+121-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:49:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:51:17-77
+123-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:51:27-74
+124            </intent-filter>
+125        </activity>
+126        <activity
+126-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:48:9-54:68
+127            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+127-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:49:13-93
+128            android:enabled="false"
+128-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:50:13-36
+129            android:icon="@drawable/leak_canary_icon"
+129-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:51:13-54
+130            android:label="@string/leak_canary_storage_permission_activity_label"
+130-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:52:13-82
+131            android:taskAffinity="com.squareup.leakcanary.klp18.praktikumprogmob.stt"
+131-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:53:13-76
+132            android:theme="@style/leak_canary_Theme.Transparent" />
+132-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\5027d73c73db6240287c49553cee3903\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:54:13-65
+133
+134        <service
+134-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:16:9-20:19
+135            android:name="net.gotev.uploadservice.UploadService"
+135-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:17:13-65
+136            android:enabled="true"
+136-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:18:13-35
+137            android:exported="true" >
+137-->[net.gotev:uploadservice:2.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b217bd9c108c0502502eb1654dd17b1d\jetified-uploadservice-2.1\AndroidManifest.xml:19:13-36
+138        </service>
+139        <!--
+140             FirebaseMessagingService performs security checks at runtime,
+141             but set to not exported to explicitly avoid allowing another app to call it.
+142        -->
+143        <service
+143-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+144            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+144-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+147            <intent-filter android:priority="-500" >
+147-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:83:13-85:29
+148                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+148-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:84:17-78
+148-->C:\Users\awenh\Documents\College Stuffs\Praktikum\PRAKTIKUM PROGMOB 2020\TEST EDIT PROFILE\New folder\progmob-android-test\app\src\main\AndroidManifest.xml:84:25-75
+149            </intent-filter>
+150        </service>
+151        <service
+151-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
+152            android:name="com.google.firebase.components.ComponentDiscoveryService"
+152-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
+155            <meta-data
+155-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+156                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+156-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\86570c8c068caa43b327b175d8224a0e\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+158            <meta-data
+158-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+159                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+159-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+162                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+162-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\8a7df5652f8a1ed1feff2dff082b12a0\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+165                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+165-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\8a7df5652f8a1ed1feff2dff082b12a0\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\8a7df5652f8a1ed1feff2dff082b12a0\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+168                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+168-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+170            <!--
+171                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+172                clients to use it as well, by defining this registrar in their own core/common library.
+173            -->
+174            <meta-data
+174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+175                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+177        </service>
+178
+179        <receiver
+179-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+180            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+180-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+181            android:enabled="true"
+181-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+182            android:exported="false" >
+182-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+183        </receiver>
+184
+185        <service
+185-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+186            android:name="com.google.android.gms.measurement.AppMeasurementService"
+186-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+188            android:exported="false" />
+188-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+189        <service
+189-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+190            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+190-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+191            android:enabled="true"
+191-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+194
+195        <receiver
+195-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+196            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+196-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+197            android:exported="true"
+197-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+198            android:permission="com.google.android.c2dm.permission.SEND" >
+198-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+199            <intent-filter>
+199-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+200                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+200-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+200-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4731913f03f7683f726aee188e977eaf\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+201            </intent-filter>
+202        </receiver>
+203
+204        <provider
+204-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+205            android:name="com.google.firebase.provider.FirebaseInitProvider"
+205-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+206            android:authorities="klp18.praktikumprogmob.stt.firebaseinitprovider"
+206-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+208            android:exported="false"
+208-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+209            android:initOrder="100" />
+209-->[com.google.firebase:firebase-common:19.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+210
+211        <activity
+211-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+212-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+215
+216        <meta-data
+216-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+217            android:name="com.google.android.gms.version"
+217-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+218            android:value="@integer/google_play_services_version" />
+218-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+219
+220        <service
+220-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+221            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+221-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+222            android:exported="false" >
+222-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+223            <meta-data
+223-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+224                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+224-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+225                android:value="cct" />
+225-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\595ec41fe4336b1910f1e1d38e29a5c6\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+226        </service>
+227        <service
+227-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+228-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+229            android:exported="false"
+229-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+230            android:permission="android.permission.BIND_JOB_SERVICE" >
+230-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+231        </service>
+232
+233        <receiver
+233-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+234-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+235            android:exported="false" />
+235-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\awenh\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+236    </application>
+237
+238</manifest>
