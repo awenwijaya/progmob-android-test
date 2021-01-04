@@ -45,7 +45,7 @@ public class InsertEventActivity extends AppCompatActivity {
     private String nama2, tanggal2, tempat2, alamat2, keterangan2;
     private ImageView imageKegiatan;
     private SQLiteHelper helper;
-    public static final String UPLOAD_URL_GAMBAR = "http://192.168.18.10/newfolder/laravel-progmob-api-test/crud-php/upload-image.php";
+    public static final String UPLOAD_URL_GAMBAR = "http://192.168.18.194/newfolder/laravel-progmob-api-test/crud-php/upload-image.php";
     private static final int STORAGE_PERMISSION_CODE = 4655;
     private int PICK_IMAGE_RESULT = 1;
     private Uri filepath;

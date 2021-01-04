@@ -41,11 +41,9 @@ public class RegisterActivity extends AppCompatActivity {
     ApiService service;
     Call<AccessToken> call;
     TokenManager tokenManager;
-    String role, role_cek;
+    String role = "Pengguna";
     EditText tilName, tilEmail, tilPassword, alamatrumah, nomortelepon, rolePenggunaPendaftaran;
     Button login, regis;
-    RadioGroup roleGroup;
-    RadioButton pengguna, pengurus;
 
 
     @Override
@@ -59,13 +57,8 @@ public class RegisterActivity extends AppCompatActivity {
         nomortelepon = findViewById(R.id.registerNomorTeleponText);
         login = findViewById(R.id.btnLogin_regis);
         regis = findViewById(R.id.btnDaftar_regis);
-        rolePenggunaPendaftaran = findViewById(R.id.editTextRolePendaftaranPengguna);
         service = RetrofitBuilder.createService(ApiService.class);
         tokenManager = TokenManager.getInstance(getSharedPreferences("prefs", MODE_PRIVATE));
-        if(tokenManager.getToken().getAccessToken() != null) {
-            startActivity(new Intent(RegisterActivity.this, MainActivity.class));
-            finish();
-        }
 
         regis.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,25 +73,6 @@ public class RegisterActivity extends AppCompatActivity {
                 tilPassword.setError(null);
                 nomortelepon.setError(null);
                 alamatrumah.setError(null);
-                role_cek = rolePenggunaPendaftaran.getText().toString();
-                if(role_cek.equals("pengguna") || role_cek.equals("Pengguna") || role_cek.equals("PENGGUNA")) {
-                    role = "Pengguna";
-                } else if(role_cek.equals("pengurus") || role_cek.equals("Pengurus") || role_cek.equals("PENGURUS")) {
-                    role = "Pengurus";
-                } else {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                    builder.setTitle("Data salah!")
-                            .setIcon(R.drawable.warning)
-                            .setMessage("Maaf! Anda belum mengisi kolom peran atau data peran yang Anda masukkan salah!")
-                            .setNeutralButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.cancel();
-                                    rolePenggunaPendaftaran.setText("");
-                                }
-                            });
-                    builder.show();
-                }
                 call = service.register(name, email, password, alamatRumah, no_telepon, role);
                 call.enqueue(new Callback<AccessToken>() {
                     @Override

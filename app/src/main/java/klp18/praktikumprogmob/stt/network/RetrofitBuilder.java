@@ -16,8 +16,8 @@ import retrofit2.converter.moshi.MoshiConverterFactory;
 
 public class RetrofitBuilder {
 
-    private static final String BASE_URL = "http://192.168.18.10/newfolder/laravel-progmob-api-test/public/api/";
-    private static final String base_url = "http://192.168.18.10/newfolder/laravel-progmob-api-test/crud-php/";
+    private static final String BASE_URL = "http://192.168.18.194/newfolder/laravel-progmob-api-test/public/api/";
+    private static final String base_url = "http://192.168.18.194/newfolder/laravel-progmob-api-test/crud-php/";
     private final static OkHttpClient client = buildClient();
     private final static Retrofit retrofit = buildRetrofit(client);
     private static Retrofit retrofitPHP = null;
